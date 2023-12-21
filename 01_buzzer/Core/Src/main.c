@@ -87,6 +87,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  Bsp_Init();
 
   /* USER CODE END 2 */
 
@@ -94,6 +95,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  Bsp_Loop();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

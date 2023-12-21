@@ -9,6 +9,7 @@
 void Bsp_Init(void);
 void Bsp_Loop(void);
 void Bsp_Led_Show_State_Handle(void);
+void Beep_On_Time(uint16_t time);
 
 
 #endif /* BUZZ_H_ */
