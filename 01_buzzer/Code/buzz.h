@@ -13,7 +13,6 @@
 #define BEEP_OFF()              HAL_GPIO_WritePin(BEEP_GPIO_Port, BEEP_Pin, RESET)
 
 /* function declarations */
-void Bsp_Init(void);
 void Bsp_Loop(void);
 void Beep(uint8_t state);
 

@@ -87,7 +87,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  Bsp_Init();
+
 
   /* USER CODE END 2 */
 
