@@ -7,10 +7,10 @@
 
 void Bsp_Init(void)
 {
-	Beep(50);
+	Beep(1);
 }
 
 void Bsp_Loop(void)
 {
-
+	Beep(1);
 }

@@ -16,9 +16,6 @@
 void Bsp_Init(void);
 void Bsp_Loop(void);
 void Beep(uint8_t state);
-void Beep_Set_State(uint8_t state);
-void Beep_Set_Time(uint8_t time);
-
 
 
 #endif /* BUZZ_H_ */
