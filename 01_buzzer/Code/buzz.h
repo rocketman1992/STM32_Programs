@@ -6,6 +6,9 @@
 #include "stdint.h"
 #include "main.h"
 
+/* Global variables */
+uint8_t first_time = 0;
+
 /* #define section */
 #define BEEP_STATE_OFF          0
 #define BEEP_STATE_ON           1
@@ -16,5 +19,21 @@
 void Bsp_Loop(void);
 void Beep(uint8_t state);
 
+void Beep(uint8_t state)
+{
+	if (state == BEEP_STATE_ON)
+	{
+		BEEP_ON();
+	}
+	else if (state == BEEP_STATE_OFF)
+	{
+		BEEP_OFF();
+	}
+	else
+	{
+
+	}
+
+}
 
 #endif /* BUZZ_H_ */
