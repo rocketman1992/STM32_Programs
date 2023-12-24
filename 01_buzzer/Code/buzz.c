@@ -20,8 +20,9 @@ void Beep(uint8_t state)
 	if (state == BEEP_STATE_ON)
 	{
 		BEEP_ON();
-		HAL_Delay(1000);
+		HAL_Delay(100);
 		BEEP_OFF();
+		HAL_Delay(500);
 
 	}
 	else if (state == BEEP_STATE_OFF)
